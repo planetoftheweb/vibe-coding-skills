@@ -2,8 +2,6 @@
 
 Paste everything in the box into a new chat in any AI (Claude, ChatGPT, Gemini, and others). Then answer its questions one at a time.
 
-Prefer a ready-made version? Try the [PRD Architect custom GPT](https://chatgpt.com/g/g-693b8b92a6f88191bac257f00fb49d57-prd-architect) in ChatGPT.
-
 ````text
 Act as my PRD Architect and follow the instructions below. I'm "the user."
 

@@ -4,14 +4,14 @@ Five ready-to-use AI skills for people who build apps and websites with AI ("vib
 
 ## What is a skill?
 
-A skill is a saved set of instructions that teaches an AI how to do one job well, the same way every time. Instead of pasting a long prompt into every chat, you install the skill once. In Claude, the AI loads a skill automatically when your request matches what the skill is for, or you can ask for it by name. In ChatGPT, you get the same effect by pasting the instructions into a Project or a custom GPT.
+A skill is a saved set of instructions that teaches an AI how to do one job well, the same way every time. Instead of pasting a long prompt into every chat, you install the skill once. In Claude, the AI loads a skill automatically when your request matches what the skill is for, or you can ask for it by name. In ChatGPT, you get the same effect by pasting the instructions into a ChatGPT Project.
 
 Every skill in this repo comes in three forms:
 
 | Form | File | Where it works |
 | --- | --- | --- |
 | Claude skill | `skills/<name>/claude/SKILL.md` and `dist/<name>.zip` | Claude.ai and Claude Code |
-| ChatGPT instructions | `skills/<name>/chatgpt.md` | A ChatGPT Project or a custom GPT |
+| ChatGPT Projects instructions | `skills/<name>/chatgpt.md` | A ChatGPT Project |
 | Plain prompt | `skills/<name>/prompt.md` | Any AI chat (Claude, ChatGPT, Gemini, and others) |
 
 ## The skills
@@ -27,8 +27,6 @@ Every skill in this repo comes in three forms:
 ### About the Beta skills
 
 **security-check**, **privacy-check**, and **ship-files** are marked **Beta**. They're new and still being tested, so expect changes. Each one says "Beta" in its description and has a banner at the top. Treat their results as a learning aid, not a professional security audit or legal advice. Only run the security check on sites you own.
-
-The PRD Architect is also available as a ready-made [custom GPT in ChatGPT](https://chatgpt.com/g/g-693b8b92a6f88191bac257f00fb49d57-prd-architect).
 
 ## Install and use
 
@@ -67,26 +65,16 @@ Official guide: [Extend Claude with skills](https://code.claude.com/docs/en/skil
 
 Repeat for each skill you want, changing the name.
 
-### ChatGPT (Project or custom GPT)
+### ChatGPT Projects
 
-Official guides: [Projects in ChatGPT](https://help.openai.com/en/articles/10169521-projects-in-chatgpt) and [Creating and editing GPTs](https://help.openai.com/en/articles/8554397-creating-a-custom-gpt).
-
-**Option A: a Project (recommended, works on all plans)**
+Official guide: [Projects in ChatGPT](https://help.openai.com/en/articles/10169521-projects-in-chatgpt).
 
 1. In the ChatGPT sidebar, select **New project** and give it a name, like "User Test."
 2. Open the project, select the more options menu (**•••**), then **Project settings**.
 3. Open the skill's `chatgpt.md` file in this repo, copy the text inside the box, and paste it into the project instructions. Save.
 4. Start a chat **inside that project** and ask for what you want. The instructions only apply to chats in that project.
 
-**Option B: a custom GPT**
-
-OpenAI's help center says that new GPT creation is no longer available on personal accounts (Free, Go, Plus, and Pro), and that custom GPTs are being retired in favor of plugins. Business, Enterprise, and Edu workspaces may still be able to create GPTs, and anyone can keep editing GPTs they already made. If you can:
-
-1. Go to [chatgpt.com/gpts](https://chatgpt.com/gpts) and select **Create** (or edit an existing GPT).
-2. In the configuration view, paste the text from the skill's `chatgpt.md` into the **Instructions** field.
-3. Test it in the preview, then save.
-
-Custom GPT instructions are limited to 8,000 characters. Every `chatgpt.md` here fits, and each file lists its length.
+Make one project per skill so each set of instructions stays separate.
 
 ### Any other AI
 

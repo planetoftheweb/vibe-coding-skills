@@ -8,7 +8,7 @@ Adds the pages and repo files a real site needs: privacy, terms, about, contact,
 | --- | --- |
 | [claude/SKILL.md](claude/SKILL.md) | Claude Code (copy the `claude` folder to `~/.claude/skills/ship-files/`) |
 | [../../dist/ship-files.zip](../../dist/ship-files.zip) | Claude.ai (upload in your skills settings) |
-| [chatgpt.md](chatgpt.md) | A ChatGPT Project or custom GPT |
+| [chatgpt.md](chatgpt.md) | A ChatGPT Project |
 | [prompt.md](prompt.md) | Any AI, pasted into a chat |
 
 [Back to the main README](../../README.md)

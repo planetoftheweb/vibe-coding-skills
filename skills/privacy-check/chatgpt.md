@@ -1,13 +1,15 @@
-# Privacy Check (Beta): ChatGPT instructions
+# Privacy Check (Beta): ChatGPT Projects instructions
 
 > **Beta:** this is a new prompt that is still being tested. Results are a learning aid, not a professional audit or legal advice.
 
-Paste the text inside the box below into one of these:
+Use these instructions in a **ChatGPT Project**:
 
-- **A ChatGPT Project:** open the project, open its settings, and paste into the project instructions. Then chat inside that project.
-- **A custom GPT:** paste into the **Instructions** field of the GPT editor (only if your plan still lets you create or edit GPTs; see the main README).
+1. Create a project in ChatGPT (select **New project** in the sidebar).
+2. Open the project's more options menu (**•••**), then **Project settings**.
+3. Paste the text inside the box below into the project instructions, and save.
+4. Start a chat inside that project.
 
-Copy only what's inside the box, not this note. **Length:** 6,082 characters, which fits the 8,000-character limit for custom GPT instructions.
+Copy only what's inside the box, not this note. **Length:** 6,082 characters. See the [main README](../../README.md#chatgpt-projects) for more help.
 
 ````text
 # Privacy and Data Check (Beta)

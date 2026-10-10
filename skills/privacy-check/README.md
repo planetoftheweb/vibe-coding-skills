@@ -8,7 +8,7 @@ Educational privacy and data check of your own site: policy, consent, data colle
 | --- | --- |
 | [claude/SKILL.md](claude/SKILL.md) | Claude Code (copy the `claude` folder to `~/.claude/skills/privacy-check/`) |
 | [../../dist/privacy-check.zip](../../dist/privacy-check.zip) | Claude.ai (upload in your skills settings) |
-| [chatgpt.md](chatgpt.md) | A ChatGPT Project or custom GPT |
+| [chatgpt.md](chatgpt.md) | A ChatGPT Project |
 | [prompt.md](prompt.md) | Any AI, pasted into a chat |
 
 [Back to the main README](../../README.md)
