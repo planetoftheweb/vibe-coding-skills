@@ -1,6 +1,6 @@
-# Security Test Prompt (Beta)
+# Security Test Prompt
 
-> **Beta:** this is a new prompt that is still being tested. Results are a learning aid, not a professional audit or legal advice.
+> **Note:** results are a learning aid, not a professional audit or legal advice.
 
 Paste the whole block into an AI. One that can open websites works best (Claude in Chrome or ChatGPT agent mode). If yours can't, the prompt tells you what to give it instead. No login or database? Run it anyway. It still checks for exposed keys, HTTPS, and leftover debug info.
 

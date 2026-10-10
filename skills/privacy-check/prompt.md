@@ -1,6 +1,6 @@
-# Privacy and Data Test Prompt (Beta)
+# Privacy and Data Test Prompt
 
-> **Beta:** this is a new prompt that is still being tested. Results are a learning aid, not a professional audit or legal advice.
+> **Note:** results are a learning aid, not a professional audit or legal advice.
 
 Two versions of the same check. If you set up a coding harness (Claude Code, Cursor, or Codex), use the **harness version** at the bottom inside your project. Otherwise, paste the **main version** into any AI. One that can open websites works best (Claude in Chrome or ChatGPT agent mode). If yours can't, the prompt tells you what to give it instead.
 

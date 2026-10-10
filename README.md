@@ -20,13 +20,15 @@ Every skill in this repo comes in three forms:
 | --- | --- | --- |
 | [user-test](skills/user-test/) | Tests your live site as a first-time visitor on desktop and phone, then tells you what works, what to fix, and how to improve it. | [user-test.zip](dist/user-test.zip) |
 | [prd-architect](skills/prd-architect/) | Interviews you one question at a time and co-writes a PRD (a short product plan) you can hand to any AI coding tool. | [prd-architect.zip](dist/prd-architect.zip) |
-| [security-check](skills/security-check/) **(Beta)** | A beginner-friendly, non-invasive security check of your own site: exposed keys, database rules, one user seeing another's data, forms, and HTTPS. | [security-check.zip](dist/security-check.zip) |
-| [privacy-check](skills/privacy-check/) **(Beta)** | An educational privacy and data check: privacy policy, consent, what you collect, user control, and GDPR and CCPA basics. Not legal advice. | [privacy-check.zip](dist/privacy-check.zip) |
-| [ship-files](skills/ship-files/) **(Beta)** | Adds the pages and repo files a real site needs: privacy, terms, about, contact, 404 page, footer, README, .gitignore, .env.example, and LICENSE. | [ship-files.zip](dist/ship-files.zip) |
+| [security-check](skills/security-check/) | A beginner-friendly, non-invasive security check of your own site: exposed keys, database rules, one user seeing another's data, forms, and HTTPS. | [security-check.zip](dist/security-check.zip) |
+| [privacy-check](skills/privacy-check/) | An educational privacy and data check: privacy policy, consent, what you collect, user control, and GDPR and CCPA basics. Not legal advice. | [privacy-check.zip](dist/privacy-check.zip) |
+| [ship-files](skills/ship-files/) | Adds the pages and repo files a real site needs: privacy, terms, about, contact, 404 page, footer, README, .gitignore, .env.example, and LICENSE. | [ship-files.zip](dist/ship-files.zip) |
 
-### About the Beta skills
+### Early and evolving
 
-**security-check**, **privacy-check**, and **ship-files** are marked **Beta**. They're new and still being tested, so expect changes. Each one says "Beta" in its description and has a banner at the top. Treat their results as a learning aid, not a professional security audit or legal advice. Only run the security check on sites you own.
+These skills are early and still evolving, so expect changes. Feedback is welcome: open an issue on this repo.
+
+Safety first: only run the website checks on sites you own, and treat the results as a learning aid. The security check is non-invasive and is not a professional security audit. The privacy check, and any privacy policy or terms the ship-files skill writes, are not legal advice.
 
 ## Install and use
 

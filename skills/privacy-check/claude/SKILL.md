@@ -1,12 +1,12 @@
 ---
 name: privacy-check
-description: "Beta. Educational privacy and data check of your own site: policy, consent, data collected, user control, GDPR and CCPA basics. Not legal advice. Use before launch."
+description: "Educational privacy and data check of your own site: policy, consent, data collected, user control, GDPR and CCPA basics. Not legal advice. Use before launch."
 license: CC-BY-4.0
 ---
 
-# Privacy and Data Check (Beta)
+# Privacy and Data Check
 
-> **Beta:** this skill is new and still being tested. It is an educational check, not legal advice.
+> **Note:** this is an educational check, not legal advice.
 
 Run a beginner-friendly privacy and data check on the user's website or project. Use plain words and explain any tech or legal term the first time you use it. Say once at the top of your reply that this is an educational check, not legal advice. Never say the site is "compliant" or "legal."
 

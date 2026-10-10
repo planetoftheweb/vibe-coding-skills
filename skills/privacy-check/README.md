@@ -1,6 +1,6 @@
-# Privacy Check (Beta)
+# Privacy Check
 
-> **Beta:** this is a new prompt that is still being tested. Results are a learning aid, not a professional audit or legal advice.
+> **Note:** results are a learning aid, not a professional audit or legal advice.
 
 Educational privacy and data check of your own site: policy, consent, data collected, user control, GDPR and CCPA basics. Not legal advice. Use before launch.
 

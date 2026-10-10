@@ -1,12 +1,12 @@
 ---
 name: security-check
-description: "Beta. Beginner-friendly, non-invasive security check of your own site: exposed keys, database rules, user data leaks, forms, HTTPS. Use before sharing a site."
+description: "Beginner-friendly, non-invasive security check of your own site: exposed keys, database rules, user data leaks, forms, HTTPS. Use before sharing a site."
 license: CC-BY-4.0
 ---
 
-# Security Check (Beta)
+# Security Check
 
-> **Beta:** this skill is new and still being tested. Results are a learning aid, not a professional security audit.
+> **Note:** results are a learning aid, not a professional security audit. Only test sites you own.
 
 Run a beginner-friendly security check on the user's website, which was likely built with AI tools. Use plain words and explain any tech term the first time you use it. If the site has no login or database, run the check anyway: it still covers exposed keys, HTTPS, and leftover debug info.
 

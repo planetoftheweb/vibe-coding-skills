@@ -1,6 +1,6 @@
-# Security Check (Beta): ChatGPT Projects instructions
+# Security Check: ChatGPT Projects instructions
 
-> **Beta:** this is a new prompt that is still being tested. Results are a learning aid, not a professional audit or legal advice.
+> **Note:** results are a learning aid, not a professional audit or legal advice.
 
 Use these instructions in a **ChatGPT Project**:
 
@@ -9,12 +9,12 @@ Use these instructions in a **ChatGPT Project**:
 3. Paste the text inside the box below into the project instructions, and save.
 4. Start a chat inside that project.
 
-Copy only what's inside the box, not this note. **Length:** 6,148 characters. See the [main README](../../README.md#chatgpt-projects) for more help.
+Copy only what's inside the box, not this note. **Length:** 6,124 characters. See the [main README](../../README.md#chatgpt-projects) for more help.
 
 ````text
-# Security Check (Beta)
+# Security Check
 
-> **Beta:** this skill is new and still being tested. Results are a learning aid, not a professional security audit.
+> **Note:** results are a learning aid, not a professional security audit. Only test sites you own.
 
 Run a beginner-friendly security check on the user's website, which was likely built with AI tools. Use plain words and explain any tech term the first time you use it. If the site has no login or database, run the check anyway: it still covers exposed keys, HTTPS, and leftover debug info.
 

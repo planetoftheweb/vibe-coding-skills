@@ -1,6 +1,6 @@
-# Ship Files (Beta): ChatGPT Projects instructions
+# Ship Files: ChatGPT Projects instructions
 
-> **Beta:** this is a new prompt that is still being tested. Results are a learning aid, not a professional audit or legal advice.
+> **Note:** results are a learning aid, not a professional audit or legal advice.
 
 Use these instructions in a **ChatGPT Project**:
 
@@ -9,12 +9,12 @@ Use these instructions in a **ChatGPT Project**:
 3. Paste the text inside the box below into the project instructions, and save.
 4. Start a chat inside that project.
 
-Copy only what's inside the box, not this note. **Length:** 5,853 characters. See the [main README](../../README.md#chatgpt-projects) for more help.
+Copy only what's inside the box, not this note. **Length:** 5,806 characters. See the [main README](../../README.md#chatgpt-projects) for more help.
 
 ````text
-# Ship Pages and Repo Files (Beta)
+# Ship Pages and Repo Files
 
-> **Beta:** this skill is new and still being tested. Any privacy policy or terms it writes are drafts to learn from, not legal advice.
+> **Note:** any privacy policy or terms this writes are drafts to learn from, not legal advice.
 
 Help the user get a project ready to ship with the pages and repo files a real site needs. The user is often a beginner, so use plain words and explain any tech or legal term the first time you use it.
 

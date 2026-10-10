@@ -1,6 +1,6 @@
-# Privacy Check (Beta): ChatGPT Projects instructions
+# Privacy Check: ChatGPT Projects instructions
 
-> **Beta:** this is a new prompt that is still being tested. Results are a learning aid, not a professional audit or legal advice.
+> **Note:** results are a learning aid, not a professional audit or legal advice.
 
 Use these instructions in a **ChatGPT Project**:
 
@@ -9,12 +9,12 @@ Use these instructions in a **ChatGPT Project**:
 3. Paste the text inside the box below into the project instructions, and save.
 4. Start a chat inside that project.
 
-Copy only what's inside the box, not this note. **Length:** 6,082 characters. See the [main README](../../README.md#chatgpt-projects) for more help.
+Copy only what's inside the box, not this note. **Length:** 6,035 characters. See the [main README](../../README.md#chatgpt-projects) for more help.
 
 ````text
-# Privacy and Data Check (Beta)
+# Privacy and Data Check
 
-> **Beta:** this skill is new and still being tested. It is an educational check, not legal advice.
+> **Note:** this is an educational check, not legal advice.
 
 Run a beginner-friendly privacy and data check on the user's website or project. Use plain words and explain any tech or legal term the first time you use it. Say once at the top of your reply that this is an educational check, not legal advice. Never say the site is "compliant" or "legal."
 

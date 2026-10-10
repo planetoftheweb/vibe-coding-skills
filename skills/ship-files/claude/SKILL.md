@@ -1,12 +1,12 @@
 ---
 name: ship-files
-description: "Beta. Adds the pages and repo files a real site needs: privacy, terms, about, contact, 404, footer, README, .gitignore, .env.example, LICENSE. Use before shipping."
+description: "Adds the pages and repo files a real site needs: privacy, terms, about, contact, 404, footer, README, .gitignore, .env.example, LICENSE. Use before shipping."
 license: CC-BY-4.0
 ---
 
-# Ship Pages and Repo Files (Beta)
+# Ship Pages and Repo Files
 
-> **Beta:** this skill is new and still being tested. Any privacy policy or terms it writes are drafts to learn from, not legal advice.
+> **Note:** any privacy policy or terms this writes are drafts to learn from, not legal advice.
 
 Help the user get a project ready to ship with the pages and repo files a real site needs. The user is often a beginner, so use plain words and explain any tech or legal term the first time you use it.
 

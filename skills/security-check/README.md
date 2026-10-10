@@ -1,6 +1,6 @@
-# Security Check (Beta)
+# Security Check
 
-> **Beta:** this is a new prompt that is still being tested. Results are a learning aid, not a professional audit or legal advice.
+> **Note:** results are a learning aid, not a professional audit or legal advice.
 
 Beginner-friendly, non-invasive security check of your own site: exposed keys, database rules, user data leaks, forms, HTTPS. Use before sharing a site.
 

@@ -1,6 +1,6 @@
-# Ship Files (Beta)
+# Ship Files
 
-> **Beta:** this is a new prompt that is still being tested. Results are a learning aid, not a professional audit or legal advice.
+> **Note:** results are a learning aid, not a professional audit or legal advice.
 
 Adds the pages and repo files a real site needs: privacy, terms, about, contact, 404, footer, README, .gitignore, .env.example, LICENSE. Use before shipping.
 

@@ -1,6 +1,6 @@
-# Ship Pages and Repo Files Prompt (Beta)
+# Ship Pages and Repo Files Prompt
 
-> **Beta:** this is a new prompt that is still being tested. Results are a learning aid, not a professional audit or legal advice.
+> **Note:** results are a learning aid, not a professional audit or legal advice.
 
 Two versions of the same prompt. If you set up a coding harness (Claude Code, Cursor, or Codex), use the **harness version** inside your project. It reads your code, asks you a few questions, then builds the pages and files. No harness? Use the **fallback version** in any AI. It asks the same questions, then writes everything for you to paste into Lovable, AI Studio, or your repo.
 
