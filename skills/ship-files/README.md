@@ -4,6 +4,8 @@
 
 Adds the pages and repo files a real site needs: privacy, terms, about, contact, 404, footer, README, .gitignore, .env.example, LICENSE. Use before shipping.
 
+**Best in a coding tool.** The main version is the Claude skill: run it in Claude Code (or a similar coding tool) with your project open, and it reads your code, rules, and planning files itself, so it asks only a question or two. `chatgpt.md` and `prompt.md` are a short fallback for any AI chat, where you share your live link and code or screenshots.
+
 | File | Use it with |
 | --- | --- |
 | [claude/SKILL.md](claude/SKILL.md) | Claude Code (copy the `claude` folder to `~/.claude/skills/ship-files/`) |
