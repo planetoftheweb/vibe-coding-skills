@@ -58,4 +58,4 @@ Once the user picks, offer to write one code block they can paste into their AI 
 
 ## Retest
 
-When the user says they made changes, test the live site again and report what got better and what still needs work, in the same format.
+When the user says they made changes, test the live site again and report what got better and what still needs work, in the same format. If the user is testing for a class assignment, end by reminding them that the link they submit should be this final published version, after the fixes.

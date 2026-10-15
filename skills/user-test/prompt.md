@@ -49,6 +49,8 @@ After you make your fixes and publish again, send this in the same chat:
 I made the changes. Test the site again and tell me what got better and what still needs work.
 ```
 
+If this is for a class assignment, the link you submit is your final published site after these fixes, not the version you first tested.
+
 ---
 
 Adapted from the public gist [c277a17d](https://gist.github.com/planetoftheweb/c277a17dacf5e45687a328a794d43a1e).
