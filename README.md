@@ -20,7 +20,7 @@ Every skill in this repo comes in three forms:
 | --- | --- | --- |
 | [user-test](skills/user-test/) | Tests your live site as a first-time visitor on desktop and phone, then tells you what works, what to fix, and how to improve it. | [user-test.zip](dist/user-test.zip) |
 | [prd-architect](skills/prd-architect/) | Interviews you one question at a time and co-writes a PRD (a short product plan) you can hand to any AI coding tool. | [prd-architect.zip](dist/prd-architect.zip) |
-| [security-check](skills/security-check/) | A beginner-friendly, non-invasive security check of your own site: exposed keys, database rules, one user seeing another's data, forms, and HTTPS. | [security-check.zip](dist/security-check.zip) |
+| [security-check](skills/security-check/) | A beginner-friendly, non-invasive security check of your own site: exposed keys (including git history and the browser bundle), AI functions anyone can call, database rules, one user seeing another's data, forms, HTTPS, and Google Cloud key and billing settings. | [security-check.zip](dist/security-check.zip) |
 | [privacy-check](skills/privacy-check/) | An educational privacy and data check: privacy policy, consent, what you collect, user control, and GDPR and CCPA basics. Not legal advice. | [privacy-check.zip](dist/privacy-check.zip) |
 | [ship-files](skills/ship-files/) | Adds the pages and repo files a real site needs: privacy, terms, about, contact, 404 page, footer, README, .gitignore, .env.example, and LICENSE. | [ship-files.zip](dist/ship-files.zip) |
 
