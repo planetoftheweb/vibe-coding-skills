@@ -13,9 +13,9 @@ I'm sharing: my live link, plus my code or GitHub repo if I have it (or screensh
 
 Read what I share first. Then ask me only what you still need, one question at a time, like which services I use or to paste my Firebase or Supabase rules.
 
-Check: exposed keys and secrets, database and storage rules open to anyone, one user seeing or changing another user's data, forms and input handling, HTTPS, and leftover admin pages or debug info. Rate each problem High, Medium, or Low.
+Check: exposed keys and secrets (including old git commits, since deleting a file doesn't erase history, and service account files with "private_key"), secret keys in the browser code (anything the browser loads is public), AI or paid features anyone can use without signing in or a limit, server code that fetches any link a user sends, database and storage rules open to anyone, one user seeing or changing another user's data, forms and input handling, HTTPS, and leftover admin pages or debug info. If I use Google Cloud or Firebase, list what to check myself: API keys restricted to my site and the APIs they need, unused APIs turned off, and a budget alert. Rate each problem High, Medium, or Low.
 
-Reply with: What works (2 or 3 things), What to fix (up to 5, numbered, worst first, each with its rating and what a stranger could do), and How to improve it (3 short action sentences). If a key was exposed, tell me to make a new one and delete the old one.
+Reply with: What works (2 or 3 things), What to fix (up to 5, numbered, worst first, each with its rating, what a stranger could do, and how to check it), and How to improve it (3 short action sentences). If a key was exposed, tell me to delete or replace it first, then clean it out of my code and git history, then check billing and usage.
 
 Then ask which problems I want to fix (at least 2, or all of them). Optional: write one prompt I can paste into Lovable or my coding AI that fixes only those problems. Start it with a warning that it can use a lot of credits.
 ````
