@@ -30,6 +30,18 @@ These skills are early and still evolving, so expect changes. Feedback is welcom
 
 Safety first: only run the website checks on sites you own, and treat the results as a learning aid. The security check is non-invasive and is not a professional security audit. The privacy check, and any privacy policy or terms the ship-files skill writes, are not legal advice.
 
+## Class slides
+
+PDF copies of the slide decks from TECH 36, Vibe Coding (Stanford Continuing Studies), are in [slides/](slides/):
+
+| Part | Slides |
+| --- | --- |
+| 1 | [Introduction to Vibe Coding](slides/part-01-introduction-to-vibe-coding.pdf) |
+| 2 | [From Dashboard to Product](slides/part-02-from-dashboard-to-product.pdf) |
+| 3 | [The App Development Spectrum](slides/part-03-the-app-development-spectrum.pdf) |
+| 4 | [The AI Powered App](slides/part-04-the-ai-powered-app.pdf) |
+| 5 | [Professional Agentic Harness](slides/part-05-professional-agentic-harness.pdf) |
+
 ## Install and use
 
 ### Claude.ai (web, desktop, and mobile apps)
