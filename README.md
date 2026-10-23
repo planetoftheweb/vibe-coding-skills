@@ -32,15 +32,15 @@ Safety first: only run the website checks on sites you own, and treat the result
 
 ## Class slides
 
-PDF copies of the slide decks from TECH 36, Vibe Coding (Stanford Continuing Studies), are in [slides/](slides/). Each week's assignment steps and copy-paste prompts for the course live in the companion [TECH 36 Vibe Coding Resources](https://github.com/planetoftheweb/tech36-vibe-coding-resources) repo.
+The slide decks from TECH 36, Vibe Coding (Stanford Continuing Studies), are view-only Google Slides, so these links always show the latest version. Want a copy? Open a deck and use **File > Download** to save a PDF. Each week's assignment steps and copy-paste prompts for the course live in the companion [TECH 36 Vibe Coding Resources](https://github.com/planetoftheweb/tech36-vibe-coding-resources) repo.
 
 | Part | Slides |
 | --- | --- |
-| 1 | [Introduction to Vibe Coding](slides/part-01-introduction-to-vibe-coding.pdf) |
-| 2 | [From Dashboard to Product](slides/part-02-from-dashboard-to-product.pdf) |
-| 3 | [The App Development Spectrum](slides/part-03-the-app-development-spectrum.pdf) |
-| 4 | [The AI Powered App](slides/part-04-the-ai-powered-app.pdf) |
-| 5 | [Professional Agentic Harness](slides/part-05-professional-agentic-harness.pdf) |
+| 1 | [Introduction to Vibe Coding](https://docs.google.com/presentation/d/1PBOUpAenlJC7n6xIbZZ0t1KOVe1IDZlzue_6aet-5cI/edit?usp=sharing) |
+| 2 | [From Dashboard to Product](https://docs.google.com/presentation/d/1kWzVwAwafEjY6F2zJqn5OreYuGV8H6J3txdEcHUZkyY/edit?usp=sharing) |
+| 3 | [The App Development Spectrum](https://docs.google.com/presentation/d/1i1ksl_Oy0WihFjn3za1SFZPU-UyQp-bDZS2CiwLXTkg/edit?usp=sharing) |
+| 4 | [The AI Powered App](https://docs.google.com/presentation/d/1WrynbWfxUbWIx6ItnwYNEp9T0Aeca6vDb_RX8eVDxgA/edit?usp=sharing) |
+| 5 | [Professional Agentic Harness](https://docs.google.com/presentation/d/1K8u5h0m7L3vwybqjnqjHMpdsk_RQOWtH2wK0fG-71IY/edit?usp=sharing) |
 
 ## Install and use
 
