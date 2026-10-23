@@ -32,7 +32,7 @@ Safety first: only run the website checks on sites you own, and treat the result
 
 ## Class slides
 
-PDF copies of the slide decks from TECH 36, Vibe Coding (Stanford Continuing Studies), are in [slides/](slides/):
+PDF copies of the slide decks from TECH 36, Vibe Coding (Stanford Continuing Studies), are in [slides/](slides/). Each week's assignment steps and copy-paste prompts for the course live in the companion [TECH 36 Vibe Coding Resources](https://github.com/planetoftheweb/tech36-vibe-coding-resources) repo.
 
 | Part | Slides |
 | --- | --- |
