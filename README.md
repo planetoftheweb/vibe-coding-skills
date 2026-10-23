@@ -32,7 +32,7 @@ Safety first: only run the website checks on sites you own, and treat the result
 
 ## Class slides
 
-The slide decks from TECH 36, Vibe Coding (Stanford Continuing Studies), are view-only Google Slides, so these links always show the latest version. Want a copy? Open a deck and use **File > Download** to save a PDF. Each week's assignment steps and copy-paste prompts for the course live in the companion [TECH 36 Vibe Coding Resources](https://github.com/planetoftheweb/tech36-vibe-coding-resources) repo.
+The slide decks from TECH 36, Vibe Coding (Stanford Continuing Studies), are linked Google Slides, always the latest version. You can leave comments, and use **File > Download** for a PDF copy. Each week's assignment steps and copy-paste prompts for the course live in the companion [TECH 36 Vibe Coding Resources](https://github.com/planetoftheweb/tech36-vibe-coding-resources) repo.
 
 | Part | Slides |
 | --- | --- |
