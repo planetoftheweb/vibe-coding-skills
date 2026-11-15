@@ -1,18 +1,19 @@
 # Vibe Coding Skills
 
-Five ready-to-use AI skills for people who build apps and websites with AI ("vibe coding"). Each one works in Claude, ChatGPT, or any other AI, and is written for beginners.
+Five ready-to-use AI skills for people who build apps and websites with AI ("vibe coding"). Each one is written for beginners. The existing `claude/SKILL.md` files work in both Claude Code and Gemini CLI. Prompt versions work in ChatGPT, Gemini Gems, or any other AI chat.
 
 ## What is a skill?
 
-A skill is a saved set of instructions that teaches an AI how to do one job well, the same way every time. Instead of pasting a long prompt into every chat, you install the skill once. In Claude, the AI loads a skill automatically when your request matches what the skill is for, or you can ask for it by name. In ChatGPT, you get the same effect by pasting the instructions into a ChatGPT Project.
+A skill is a saved set of instructions that teaches an AI how to do one job well, the same way every time. Instead of pasting a long prompt into every chat, you install the skill once. In Claude, the AI loads a skill automatically when your request matches what the skill is for, or you can ask for it by name. In ChatGPT Projects and Gemini Gems, you save instructions for chats within that project or Gem.
 
-Every skill in this repo comes in three forms:
+Every skill in this repo comes in these forms:
 
 | Form | File | Where it works |
 | --- | --- | --- |
-| Claude skill | `skills/<name>/claude/SKILL.md` and `dist/<name>.zip` | Claude.ai and Claude Code |
+| Agent skill | `skills/<name>/claude/SKILL.md` | Claude Code and Gemini CLI |
+| Claude.ai package | `dist/<name>.zip` | Claude.ai upload |
 | ChatGPT Projects instructions | `skills/<name>/chatgpt.md` | A ChatGPT Project |
-| Plain prompt | `skills/<name>/prompt.md` | Any AI chat (Claude, ChatGPT, Gemini, and others) |
+| Plain prompt | `skills/<name>/prompt.md` | Gemini Gem instructions or any AI chat |
 
 ## The skills
 
@@ -79,6 +80,35 @@ Official guide: [Extend Claude with skills](https://code.claude.com/docs/en/skil
 
 Repeat for each skill you want, changing the name.
 
+### Gemini CLI
+
+Official guides: [Agent Skills](https://geminicli.com/docs/cli/skills/) and [Trusted Folders](https://geminicli.com/docs/cli/trusted-folders/).
+
+Use the existing `claude/` folder contents. Keep that folder name in this repo; the ZIP downloads are for Claude.ai.
+
+1. **Copy the skill.** From the repo's top-level folder, run:
+
+   ```bash
+   mkdir -p ~/.gemini/skills/user-test
+   cp -R skills/user-test/claude/. ~/.gemini/skills/user-test/
+   ```
+
+   This puts `SKILL.md` directly in `~/.gemini/skills/user-test/` for use across projects. Substitute another skill name for `user-test` in both commands to install it.
+
+2. **Check it.** In a Gemini CLI session, type `/skills list`. After adding or changing files, type `/skills reload`, then check the list again.
+3. **Use it.** Ask "Use the user-test skill to test my website" and provide your URL. Gemini asks for consent when activating a skill; review the request before approving it.
+
+For one project instead, copy the contents into that project's `.gemini/skills/<name>/` folder. From this repo's top-level folder, this example installs user-test for this repo only:
+
+```bash
+mkdir -p .gemini/skills/user-test
+cp -R skills/user-test/claude/. .gemini/skills/user-test/
+```
+
+Folder trust is disabled by default. If enabled, use workspace skills only in a project you trust: choose **Trust folder** when prompted, or use `/permissions` to change the current folder's trust. See the trust guide above.
+
+The interoperable aliases `~/.agents/skills/<name>/` (user) and `.agents/skills/<name>/` (workspace) also work across compatible tools. Choose one location per skill. Workspace skills override user skills; within either level, `.agents/skills/` takes precedence over `.gemini/skills/`.
+
 ### ChatGPT Projects
 
 Official guide: [Projects in ChatGPT](https://help.openai.com/en/articles/10169521-projects-in-chatgpt).
@@ -89,6 +119,20 @@ Official guide: [Projects in ChatGPT](https://help.openai.com/en/articles/101695
 4. Start a chat **inside that project** and ask for what you want. The instructions only apply to chats in that project.
 
 Make one project per skill so each set of instructions stays separate.
+
+### Gemini web app (Gems)
+
+A Gem saves instructions for reuse, similar to a ChatGPT Project. An ordinary Gemini chat only uses the prompt you paste into that chat.
+
+Official guide: [Create a custom Gem](https://support.google.com/gemini/answer/15235603?hl=en).
+
+1. Open [gemini.google.com](https://gemini.google.com), then choose **Explore Gems > New Gem**.
+2. Name your Gem, for example "User Test."
+3. Open the skill's `prompt.md`, such as [user-test/prompt.md](skills/user-test/prompt.md). Copy the text inside the box and paste it into the Gem's **Instructions** field.
+4. Click **Save**. Using the preview does not automatically save your Gem.
+5. Open the saved Gem and ask for the task, such as "Test my website," with your live URL or other context the skill needs.
+
+Make one Gem per skill to keep its saved instructions focused.
 
 ### Any other AI
 
